@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #7aa0c3;
+    
+
+}
+
+.main-header li{
+    padding: 20px 25px;
+}
+
+.main-header li:hover {
+    background-color: #70a7d8;
+}
+
+
+.main-header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}

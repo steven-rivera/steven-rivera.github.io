@@ -4,6 +4,9 @@ body {
     font-family: IBM Plex Sans, Geneva;
 }
 
+
+
+
 ul.nav-bar {
     display: flex;
     justify-content: center;
@@ -31,20 +34,23 @@ ul.nav-bar a {
     text-decoration: none;
 }
 
+
+
+
 div.header-container {
-    padding: 60px 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 85vw;
     margin: 0px auto;
-    
 }
+
 
 div.bio-container {
     width: auto;
     height: auto;
+    margin: 60px 20px 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +72,7 @@ img.profile-image {
 }
 
 p.icon-row {
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
@@ -98,10 +104,70 @@ a.button:hover {
     transform: scale(1.1);
 }
 
+
 div.about-me-section {
     width: 700px;
     height: auto;
+    margin: 0px 20px;
 }
+
+
+
+
+div.skills-container {
+    width: 85vw;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.skills-header {
+    width: 1000px;
+}
+
+div.skills-header h1 {
+    padding-left: 20px;
+}
+
+
+div.skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+ion-card {
+    margin: 20px 20px;
+    width: 200px
+}
+
+ion-card-header {
+    padding-bottom: 5px;
+}
+
+ion-card-subtitle {
+    font-size: 14px;
+}
+
+ion-item {
+    --padding-start: 0;
+    --min-height: 35px;
+    font-size: 13px;
+}
+
+ion-thumbnail {
+    --size: 20px;
+    --border-radius: 2px;
+    margin-right: 10px;
+}
+
+ion-label {
+    margin: 0px;
+}
+
 
 
 
@@ -117,4 +183,20 @@ div.bio-container {
 
 div.about-me-section {
     outline: dashed 1px green;
+}
+
+div.skills-container {
+    outline: dashed 1px red;
+}
+
+div.skills-header {
+    outline: dashed 1px orange;
+}
+
+div.skills-cards {
+    outline: dashed 1px purple;
+}
+
+h1 {
+    outline: dashed 1px brown;
 }

@@ -21,7 +21,11 @@
 
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="screens.css">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -29,24 +33,32 @@
   <main>
     <nav>
       <ul class="nav-bar">
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact-me">Contact Me</a></li>
+        <a href="#about-me">
+          <li>About Me</li>
+        </a>
+        <a href="#skills">
+          <li>Skills</li>
+        </a>
+        <a href="#projects">
+          <li>Projects</li>
+        </a>
+        <a href="#education">
+          <li>Education</li>
+        </a>
+        <a href="#contact-me">
+          <li>Contact Me</li>
+        </a>
       </ul>
     </nav>
 
     <a id="about-me"></a>
     <div class="header-container">
-
       <div class="bio-container">
         <div class="image-container">
           <img class="profile-image" src="images/profile.jpg">
         </div>
-        <h1 style="font-size: 48px; font-weight: bold; margin-top: 0px; margin-bottom: 0px;">Steven Rivera</h1>
-        <h5 style="font-size: 18px; font-weight: 200; margin-top: 0px; margin-bottom: 0px;">Junior Software Engineer
-        </h5>
+        <h1>Steven Rivera</h1>
+        <h5>Junior Software Engineer</h5>
         <p class="icon-row">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
             <a href="https://github.com/steven-rivera" target="_blank">
@@ -64,8 +76,6 @@
             </a>
           </svg>
         </p>
-        <!-- <div style="width: 26%; height: 12%;"> -->
-
         <div>
           <a class="button" href="https://drive.google.com/file/d/1tq3DelhgGpx_O1f39UVKIE8gxm_z0JTh/view?usp=sharing"
             target="_blank">My Resume</a>
@@ -73,172 +83,182 @@
       </div>
 
       <div class="about-me-section">
-        <h1>About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.
-        </p>
+        <ion-card mode="ios">
+          <ion-card-header>
+            <ion-card-title>
+              <h1>About Me</h1>
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </ion-card-content>
+        </ion-card>
       </div>
     </div>
 
     <a id="skills"></a>
     <div class="skills-container">
-      <div class="skills-header">
-        <h1>Skills</h1>
-      </div>
-      <div class="skills-cards">
-        <ion-card mode="ios">
-          <ion-card-header>
-            <ion-card-subtitle>Languages</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <ion-list>
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/python-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Python</ion-label>
-              </ion-item>
+      <div class="skills-sub-container">
+        <div class="skills-header">
+          <h1>Skills</h1>
+        </div>
+        <div class="skills-cards">
+          <ion-card mode="ios">
+            <ion-card-header>
+              <ion-card-subtitle>Languages</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-list>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/python-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Python</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/c-icon.png" />
-                </ion-thumbnail>
-                <ion-label>C/C++</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/c-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>C/C++</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/javascript-icon.png" />
-                </ion-thumbnail>
-                <ion-label>JavaScript</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/javascript-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>JavaScript</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/typescript-icon.png" />
-                </ion-thumbnail>
-                <ion-label>TypeScript</ion-label>
-              </ion-item>
-            </ion-list>
-          </ion-card-content>
-        </ion-card>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/typescript-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>TypeScript</ion-label>
+                </ion-item>
+              </ion-list>
+            </ion-card-content>
+          </ion-card>
 
-        <ion-card mode="ios">
-          <ion-card-header>
-            <ion-card-subtitle>Frontend</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <ion-list>
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/html5-icon.png" />
-                </ion-thumbnail>
-                <ion-label>HTML</ion-label>
-              </ion-item>
+          <ion-card mode="ios">
+            <ion-card-header>
+              <ion-card-subtitle>Frontend</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-list>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/html5-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>HTML</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/css3-icon.png" />
-                </ion-thumbnail>
-                <ion-label>CSS</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/css3-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>CSS</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/react-icon.png" />
-                </ion-thumbnail>
-                <ion-label>React</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/react-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>React</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/figma-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Figma</ion-label>
-              </ion-item>
-            </ion-list>
-          </ion-card-content>
-        </ion-card>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/figma-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Figma</ion-label>
+                </ion-item>
+              </ion-list>
+            </ion-card-content>
+          </ion-card>
 
-        <ion-card mode="ios">
-          <ion-card-header>
-            <ion-card-subtitle>Backend</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <ion-list>
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/flask-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Flask</ion-label>
-              </ion-item>
+          <ion-card mode="ios">
+            <ion-card-header>
+              <ion-card-subtitle>Backend</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-list>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/flask-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Flask</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/nodejs-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Node.js</ion-label>
-              </ion-item>
-              <ion-item>
-                
-                <ion-thumbnail slot="start">
-                  <img src="icons/rest-icon.png" />
-                </ion-thumbnail>
-                <ion-label>REST</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/nodejs-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Node.js</ion-label>
+                </ion-item>
+                <ion-item>
 
-            </ion-list>
-          </ion-card-content>
-        </ion-card>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/rest-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>REST</ion-label>
+                </ion-item>
 
-        <ion-card mode="ios">
-          <ion-card-header>
-            <ion-card-subtitle>Databases</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <ion-list>
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/postgreSQL-icon.png" />
-                </ion-thumbnail>
-                <ion-label>PostgreSQL</ion-label>
-              </ion-item>
+              </ion-list>
+            </ion-card-content>
+          </ion-card>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/mongoDB-icon.png" />
-                </ion-thumbnail>
-                <ion-label>MongoDB</ion-label>
-              </ion-item>
+          <ion-card mode="ios">
+            <ion-card-header>
+              <ion-card-subtitle>Databases</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-list>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/postgreSQL-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>PostgreSQL</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/neo4j-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Neo4J</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/mongoDB-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>MongoDB</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/cassandra-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Cassandra</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/neo4j-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Neo4J</ion-label>
+                </ion-item>
 
-              <ion-item>
-                <ion-thumbnail slot="start">
-                  <img src="icons/couchbase-server-icon.png" />
-                </ion-thumbnail>
-                <ion-label>Couchbase Server</ion-label>
-              </ion-item>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/cassandra-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Cassandra</ion-label>
+                </ion-item>
 
-            </ion-list>
-          </ion-card-content>
-        </ion-card>
+                <ion-item>
+                  <ion-thumbnail slot="start">
+                    <img src="icons/couchbase-server-icon.png" />
+                  </ion-thumbnail>
+                  <ion-label>Couchbase Server</ion-label>
+                </ion-item>
+
+              </ion-list>
+            </ion-card-content>
+          </ion-card>
+        </div>
       </div>
     </div>
   </main>

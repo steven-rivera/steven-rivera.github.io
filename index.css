@@ -1,10 +1,19 @@
 body {
     margin: 0;
     background-color: #F2F9FF;
-    font-family: IBM Plex Sans, Geneva;
+    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
+h1 {
+    font-size: 34px;
+    font-weight: 600;
+}
 
+h5 {
+    font-size: 15px; 
+    font-weight: 400; 
+}
 
 
 ul.nav-bar {
@@ -21,8 +30,8 @@ ul.nav-bar {
 }
 
 ul.nav-bar li {
-    padding: 8px 27px;
-    font-size: 16px
+    padding: 10px 25px;
+    font-size: 20px
 }
 
 ul.nav-bar li:hover {
@@ -36,24 +45,29 @@ ul.nav-bar a {
 
 
 
-
 div.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px auto;
 }
 
 
 div.bio-container {
-    width: auto;
-    height: auto;
-    margin: 60px 20px 30px 20px;
+    margin: 90px 30px 0px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+div.bio-container h1 {
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+div.bio-container h5 {
+    margin-top: 0px; 
+    margin-bottom: 0px;
 }
 
 div.image-container {
@@ -106,65 +120,75 @@ a.button:hover {
 
 
 div.about-me-section {
-    width: 65%;
-    margin: 0px 20px;
+    width: 700px;
+    margin: 0px 60px 0px 60px;
+    padding-top: 30px;
+}
+
+div.about-me-section ion-card {
+    margin: 0; 
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px;
+}
+
+div.about-me-section h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+div.about-me-section p{
+    font-weight: 400;
+    font-size: 16px; 
 }
 
 
 
 
 div.skills-container {
-    width: 1100px;
-    margin: 0px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-div.skills-header {
-    width: 95%;
-}
-
 div.skills-header h1 {
     padding-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 60px;
 }
-
 
 div.skills-cards {
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    width: 95%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-ion-card {
+div.skills-cards ion-card {
     margin: 20px 20px;
-    width: 200px;
+    width: 225px;
     flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px;
 }
 
-ion-card-header {
+div.skills-cards ion-card-header {
     padding-bottom: 5px;
 }
 
-ion-card-subtitle {
+div.skills-cards ion-card-subtitle {
     font-size: 14px;
 }
 
-ion-item {
+div.skills-cards ion-item {
     --padding-start: 0;
     --min-height: 35px;
     font-size: 13px;
 }
 
-ion-thumbnail {
+div.skills-cards ion-thumbnail {
     --size: 20px;
     --border-radius: 2px;
     margin-right: 10px;
 }
 
-ion-label {
+div.skills-cards ion-label {
     margin: 0px;
 }
 
@@ -173,7 +197,7 @@ ion-label {
 
 /* DEBUG  */
 
-div.header-container {
+/* div.header-container {
     outline: dashed 1px black;
 }
 
@@ -185,8 +209,18 @@ div.about-me-section {
     outline: dashed 1px green;
 }
 
-div.skills-container {
+*/
+
+/* div.skills-container {
     outline: dashed 1px red;
+}
+
+div.skills-container {
+    outline: dashed 1px pink;
+}
+
+div.skills-sub-container {
+    outline: dashed 1px brown;
 }
 
 div.skills-header {
@@ -199,4 +233,4 @@ div.skills-cards {
 
 h1 {
     outline: dashed 1px brown;
-}
+}  */

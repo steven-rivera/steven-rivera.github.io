@@ -16,6 +16,10 @@ h5 {
     font-weight: 400; 
 }
 
+ion-card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
+}
+
 
 ul.nav-bar {
     display: flex;
@@ -149,7 +153,6 @@ div.about-me-section {
 
 div.about-me-section ion-card {
     margin: 0; 
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
 }
 
 div.about-me-section h1{
@@ -170,10 +173,6 @@ div.skills-container {
     align-items: center;
 }
 
-div.skills-sub-container {
-    margin: 0rem 0.5rem;
-}
-
 div.skills-header h1 {
     padding-left: 1.25rem;
     margin-bottom: 0.3rem;
@@ -189,8 +188,6 @@ div.skills-cards {
 div.skills-cards ion-card {
     margin: 1rem 1rem;
     width: 13.5rem;
-    flex-shrink: 0;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
 }
 
 div.skills-cards ion-card-header {
@@ -220,6 +217,40 @@ div.skills-cards ion-label {
 
 
 
+div.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.projects-sub-container {
+    margin: 0rem 0.5rem;
+}
+
+div.projects-header h1 {
+    padding-left: 1.25rem;
+    margin-bottom: 0.3rem;
+    margin-top: 3.75rem;
+}
+
+div.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+}
+
+div.projects-cards ion-card {
+    margin: 1rem 1rem;
+    width: 13.5rem;
+}
+
+/* div.projects-cards img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+} */
+
+
+
 /* DEBUG  */
 
 /* div.header-container {
@@ -234,9 +265,9 @@ div.about-me-section {
     outline: dashed 1px green;
 }
 
-*/
 
-/* div.skills-container {
+
+div.skills-container {
     outline: dashed 1px red;
 }
 
@@ -254,6 +285,10 @@ div.skills-header {
 
 div.skills-cards {
     outline: dashed 1px purple;
+}
+
+div.projects-container {
+    outline: dashed 1px yellow;
 }
 
 h1 {

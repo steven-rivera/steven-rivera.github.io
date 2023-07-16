@@ -71,6 +71,10 @@
     }
 
 
+    div.skills-container {
+        padding-left: 0.5rem
+    }
+
     div.skills-sub-container {
         width: 100%
     }

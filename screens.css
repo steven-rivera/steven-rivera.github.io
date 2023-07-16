@@ -26,17 +26,17 @@
     p.icon-row {
         display: flex;
         align-items: center;
-        margin: 0.5rem 0rem;
+        margin: 0.75rem 0rem;
     }
     
     svg.icons-1 {
-        width: 1rem;
-        height: 1rem;
+        width: 1.2rem;
+        height: 1.2rem;
     } 
     
     svg.icons-1 image{
-        width: 1rem;
-        height: 1rem;
+        width: 1.2rem;
+        height: 1.2rem;
     } 
     
     svg.icons-2 {
@@ -71,9 +71,24 @@
     }
 
 
+    div.skills-sub-container {
+        width: 100%
+    }
+
+    div.skills-header h1 {
+        margin-top: 2rem;
+    }
+
+    div.skills-cards {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        padding-bottom: 0.625rem;
+    }
+
+
     div.skills-cards ion-card {
         margin: 0.75rem 0.75rem;
-        width: 10rem;
+        width: 12rem;
         flex-shrink: 0;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
     }
@@ -98,10 +113,3 @@
         margin-right: 0.7rem;
     }
 }
-
-
-/* @media only screen and (max-width: 400px) {
-    div.skills-cards {
-        overflow-x: scroll;
-    }
-} */

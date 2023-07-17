@@ -1,14 +1,16 @@
 /* Shrinks the nav-bar when screen width reaches px value */
 
 @media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 1.5rem;
+    body {
+        & h1 {
+            font-size: 1.5rem;
+        }
+
+        & h5 {
+            font-size: 0.7rem;
+        }
     }
-    
-    h5 {
-        font-size: 0.7rem; 
-    }
-    
+
     ul.nav-bar li {
         padding: 0.5rem 0.625rem;
         font-size: 0.7rem
@@ -16,104 +18,93 @@
 
     div.bio-container {
         margin: 3.625rem 0.875rem 0rem 0.875rem;
+
+        & .image-container {
+            width: 6rem;
+            height: 6rem;
+        }
+
+        & .icon-row {
+            display: flex;
+            align-items: center;
+            margin: 0.75rem 0rem;
+
+            & .icons-1 {
+                width: 1.2rem;
+                height: 1.2rem;
+
+                & image {
+                    width: 1.2rem;
+                    height: 1.2rem;
+                }
+            }
+
+            & .icons-2 {
+                width: 0.9rem;
+                height: 0.9rem;
+
+                & image {
+                    width: 0.9rem;
+                    height: 0.9rem;
+                }
+            }
+        }
+
+        & .button {
+            font-size: 0.6rem;
+            padding: 0.3rem 0.625rem;
+        }
     }
-
-    div.image-container {
-        width: 6rem;
-        height: 6rem;
-    }
-
-    p.icon-row {
-        display: flex;
-        align-items: center;
-        margin: 0.75rem 0rem;
-    }
-    
-    svg.icons-1 {
-        width: 1.2rem;
-        height: 1.2rem;
-    } 
-    
-    svg.icons-1 image{
-        width: 1.2rem;
-        height: 1.2rem;
-    } 
-    
-    svg.icons-2 {
-        width: 0.9rem;
-        height: 0.9rem;
-    } 
-    
-    svg.icons-2 image{
-        width: 0.9rem;
-        height: 0.9rem;
-    } 
-
-    a.button {
-        font-size: 0.6rem;
-        padding: 0.3rem 0.625rem;
-    }
-
-
-
-    div.about-me-section p{
-        font-size: 0.6rem; 
-    } 
 
     div.about-me-section {
         width: 44rem;
         margin: 0rem 1.25rem;
         padding-top: 1.5rem;
+
+        & h1 {
+            margin-bottom: 0.625rem;
+        }
+
+        & p {
+            font-size: 0.6rem;
+        }
     }
 
-    div.about-me-section h1{
-        margin-bottom: 0.625rem;
-    }
-
-
-    
     div.skills-container {
-        padding-left: 0.5rem
-    }
+        padding-left: 0.5rem;
+        padding-right: 0rem;
 
-    div.skills-sub-container {
-        width: 100%
-    }
+        & .skills-cards {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            padding-bottom: 0.625rem;
 
-    div.skills-sub-container {
-        margin-top: 2rem;
-    }
+            & ion-card {
+                margin: 0.75rem 0.75rem;
+                width: 12rem;
+                flex-shrink: 0;
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
+            }
 
-    div.skills-cards {
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        padding-bottom: 0.625rem;
-    }
+            & ion-card-header {
+                padding-top: 0.8rem;
+            }
 
-    div.skills-cards ion-card {
-        margin: 0.75rem 0.75rem;
-        width: 12rem;
-        flex-shrink: 0;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
-    }
-    
-    div.skills-cards ion-card-header {
-        padding-top: 0.8rem;
-    }
-    
-    div.skills-cards ion-card-subtitle {
-        font-size: 0.775rem;
-    }
-    
-    div.skills-cards ion-item {
-        --padding-start: 0rem;
-        --min-height: 2rem;
-        font-size: 0.6rem;
-    }
-    
-    div.skills-cards ion-thumbnail {
-        --size: 0.9rem;
-        --border-radius: 0.1rem;
-        margin-right: 0.7rem;
+            & ion-card-subtitle {
+                font-size: 0.775rem;
+            }
+
+            & ion-item {
+                --padding-start: 0rem;
+                --min-height: 2rem;
+                font-size: 0.6rem;
+            }
+
+            & ion-thumbnail {
+                --size: 0.9rem;
+                --border-radius: 0.1rem;
+                margin-right: 0.7rem;
+            }
+        }
     }
 }

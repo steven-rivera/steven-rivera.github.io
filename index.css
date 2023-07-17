@@ -154,7 +154,7 @@ div.about-me-section {
     text-align: center;
 
     & h1 {
-        margin-bottom: 0.625rem ;
+        margin-bottom: 0.625rem;
     }
 
     & p {
@@ -178,7 +178,7 @@ div.skills-container {
     text-align: center;
 
     & h1 {
-        margin-bottom: 0.625rem ;
+        margin-bottom: 0.625rem;
     }
 
     & .skills-cards {
@@ -250,6 +250,42 @@ div.skills-container {
     }
 } */
 
+div.education-container {
+    max-width: 64rem;
+    margin: 0rem auto;
+    padding: 1.5rem 0rem;
+    text-align: center;
+
+    & .education-cards {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    & h1 {
+        margin-bottom: 0.625rem;
+    }
+    
+    & ion-card {
+        width: 24rem;
+        margin: 1rem;
+        text-align: start;  
+    }
+
+    & ion-card-title {
+        font-size: 1.1rem;
+    }
+
+    & ion-card-subtitle {
+        font-size: 0.7rem;
+    }
+
+    & ul {
+        margin: 0rem 0rem 0.2rem 0rem;
+        font-size: 0.85rem;
+        padding-left: 2rem;
+    }
+}
 
 
 
@@ -260,7 +296,7 @@ div.contact-me-container {
     text-align: center;
 
     & h1 {
-        margin-bottom: 0.625rem ;
+        margin-bottom: 0.625rem;
     }
 
     & ion-card {
@@ -269,7 +305,7 @@ div.contact-me-container {
 
     & ion-card-content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
@@ -280,7 +316,7 @@ div.contact-me-container {
 
     & a {
         text-decoration: none;
-        font-size: 0.80rem;
+        font-size: 0.85rem;
         color: #6084a5
     }
 }
@@ -311,6 +347,14 @@ div.skills-container {
 
     & .skills-cards {
         outline: dashed 1px red;
+    }
+}
+
+div.education-container {
+    outline: dashed 1px orange;
+
+    & .education-cards {
+        outline: dashed 1px orange;
     }
 }
 

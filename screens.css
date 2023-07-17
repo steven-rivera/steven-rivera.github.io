@@ -66,7 +66,7 @@
         }
 
         & p {
-            font-size: 0.6rem;
+            font-size: 0.65rem;
         }
     }
 
@@ -107,6 +107,28 @@
                 --border-radius: 0.1rem;
                 margin-right: 0.7rem;
             }
+        }
+    }
+
+    div.education-container {
+        padding: 0.5rem 0rem;
+
+        & ion-card {
+            margin: 0.75rem;
+        }
+
+        & ion-card-title {
+            font-size: 0.9rem;
+        }
+    
+        & ion-card-subtitle {
+            font-size: 0.6rem;
+        }
+    
+        & ul {
+            margin: 0rem 0rem 0.2rem 0rem;
+            font-size: 0.65rem;
+            padding-left: 2rem;
         }
     }
 

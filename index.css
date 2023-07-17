@@ -150,19 +150,21 @@ div.bio-container {
 div.about-me-section {
     width: 44rem;
     margin: 0rem 3.75rem 0rem 3.75rem;
-    padding-top: 3.75rem;
+    padding-top: 1.75rem;
+    text-align: center;
 
     & h1 {
-        margin: 0rem 0rem 0.625rem 0.4rem;
+        margin-bottom: 0.625rem ;
     }
 
     & p {
         font-weight: 400;
         font-size: 0.875rem;
+        text-align: left;
     }
 
     & ion-card {
-        margin: 0;
+        margin: 1.25rem 1rem;
     }
 }
 
@@ -170,22 +172,24 @@ div.about-me-section {
 
 
 div.skills-container {
-    max-width: 60rem;
+    max-width: 64rem;
     margin: 0rem auto;
-    padding: 2.75rem 1rem;
+    padding: 1.5rem 0rem;
+    text-align: center;
 
     & h1 {
-        margin: 0rem 0rem 0.625rem 0.4rem;
+        margin-bottom: 0.625rem ;
     }
 
     & .skills-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
 
         & ion-card {
             width: 13.5rem;
-            margin: 0;
+            margin: 0.625rem;
+            text-align: start;
         }
 
         & ion-card-header {
@@ -250,16 +254,17 @@ div.skills-container {
 
 
 div.contact-me-container {
-    max-width: 60rem;
+    max-width: 64rem;
     margin: 0rem auto;
-    padding: 2.75rem 1rem;
+    padding: 1.5rem 0rem;
+    text-align: center;
 
     & h1 {
-        margin: 0rem 0rem 0.625rem 0.4rem;
+        margin-bottom: 0.625rem ;
     }
 
     & ion-card {
-        margin: 0;
+        margin: 1.25rem;
     }
 
     & ion-card-content {
@@ -279,7 +284,7 @@ div.contact-me-container {
 
 /* DEBUG  */
 
-h1 {
+/* h1 {
     outline: dashed 1px brown;
 }
 
@@ -309,4 +314,4 @@ div.contact-me-container {
     & ion-card {
         outline: dashed 1px green;
     }
-}
+} */

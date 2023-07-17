@@ -71,6 +71,7 @@
     }
 
 
+    
     div.skills-container {
         padding-left: 0.5rem
     }
@@ -79,7 +80,7 @@
         width: 100%
     }
 
-    div.skills-header h1 {
+    div.skills-sub-container {
         margin-top: 2rem;
     }
 
@@ -88,7 +89,6 @@
         overflow-x: scroll;
         padding-bottom: 0.625rem;
     }
-
 
     div.skills-cards ion-card {
         margin: 0.75rem 0.75rem;

@@ -55,6 +55,8 @@ div.header-container {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 80rem;
+    margin: 0rem auto;
 }
 
 
@@ -168,26 +170,24 @@ div.about-me-section p{
 
 
 div.skills-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 60rem;
+    margin: 0rem auto;
+    padding: 2.75rem 1rem;
 }
 
-div.skills-header h1 {
-    padding-left: 1.25rem;
-    margin-bottom: 0.3rem;
-    margin-top: 3.75rem;
+div.skills-container h1 {
+    margin: 0rem 0rem 0.625rem 0.4rem;
 }
 
 div.skills-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;  
+    justify-content:space-between;  
 }
 
 div.skills-cards ion-card {
-    margin: 1rem 1rem;
     width: 13.5rem;
+    margin: 0; 
 }
 
 div.skills-cards ion-card-header {
@@ -217,14 +217,11 @@ div.skills-cards ion-label {
 
 
 
+/* 
 div.projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-div.projects-sub-container {
-    margin: 0rem 0.5rem;
 }
 
 div.projects-header h1 {
@@ -244,53 +241,74 @@ div.projects-cards ion-card {
     width: 13.5rem;
 }
 
-/* div.projects-cards img {
-    aspect-ratio: 1/1;
-    object-fit: cover;
+div.projects-cards img {
+    width: 100%;
+    object-fit: cover; 
+    aspect-ratio: 1/0.6;
 } */
+
+
+
+
+div.contact-me-container {
+    max-width: 60rem;
+    margin: 0rem auto;
+    padding: 2.75rem 1rem;
+}
+
+div.contact-me-container h1{
+    
+    margin: 0rem 0rem 0.625rem 0.4rem;
+}
+
+div.contact-me-container ion-card {
+    margin: 0; 
+}
+
+div.contact-me-container ion-card-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    & p {
+        font-weight: 400;
+        font-size: 0.875rem; 
+    }
+} 
+
 
 
 
 /* DEBUG  */
 
-/* div.header-container {
-    outline: dashed 1px black;
-}
+h1 {
+    outline: dashed 1px brown;
+} 
 
-div.bio-container {
+div.header-container {
     outline: dashed 1px blue;
+
+    .bio-container {
+        outline: dashed 1px blue;
+    }
+
+    .about-me-section {
+        outline: dashed 1px blue;
+    }
 }
-
-div.about-me-section {
-    outline: dashed 1px green;
-}
-
-
 
 div.skills-container {
     outline: dashed 1px red;
+
+    .skills-cards {
+        outline: dashed 1px red;
+    }
 }
 
-div.skills-container {
-    outline: dashed 1px pink;
-}
+div.contact-me-container {
+    outline: dashed 1px green;
 
-div.skills-sub-container {
-    outline: dashed 1px brown;
+    & ion-card {
+        outline: dashed 1px green;
+    }
 }
-
-div.skills-header {
-    outline: dashed 1px orange;
-}
-
-div.skills-cards {
-    outline: dashed 1px purple;
-}
-
-div.projects-container {
-    outline: dashed 1px yellow;
-}
-
-h1 {
-    outline: dashed 1px brown;
-}  */

@@ -5,13 +5,13 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
 
     & h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: 600;
         color: black;
     }
 
     & h5 {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         font-weight: 400;
     }
 
@@ -269,13 +269,19 @@ div.contact-me-container {
 
     & ion-card-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
+    }
 
-        & p {
-            font-weight: 400;
-            font-size: 0.875rem;
-        }
+    & h2 {
+        font-weight: 700;
+        font-size: 0.875rem;
+    }
+
+    & a {
+        text-decoration: none;
+        font-size: 0.80rem;
+        color: #6084a5
     }
 }
 

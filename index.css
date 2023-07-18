@@ -228,7 +228,6 @@ div.projects-container {
     text-align: center;
 
     & h1 {
-        padding-left: 1.25rem;
         margin-bottom: 0.3rem;
         margin-top: 3.75rem;
     }
@@ -366,27 +365,35 @@ div.contact-me-container {
 
 /* DEBUG  */
 
-/* h1 {
+h1 {
     outline: dashed 1px brown;
 }
 
 div.header-container {
-    outline: dashed 1px blue;
+    outline: dashed 1px red;
 
     & .bio-container {
-        outline: dashed 1px blue;
+        outline: dashed 1px red;
     }
 
     & .about-me-section {
-        outline: dashed 1px blue;
+        outline: dashed 1px red;
     }
 }
 
 div.skills-container {
-    outline: dashed 1px red;
+    outline: dashed 1px green;
 
     & .skills-cards {
-        outline: dashed 1px red;
+        outline: dashed 1px green;
+    }
+}
+
+div.projects-container {
+    outline: dashed 1px blue;
+
+    & .projects-cards {
+        outline: dashed 1px blue;
     }
 }
 
@@ -399,9 +406,9 @@ div.education-container {
 }
 
 div.contact-me-container {
-    outline: dashed 1px green;
+    outline: dashed 1px purple;
 
     & ion-card {
-        outline: dashed 1px green;
+        outline: dashed 1px purple;
     }
-} */
+}

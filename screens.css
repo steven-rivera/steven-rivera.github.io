@@ -77,6 +77,7 @@
             flex-wrap: wrap;
             justify-content: center;
             overflow-x: scroll;
+            padding-bottom: 0.5rem;
 
             & ion-card {
                 margin: 0.50rem;

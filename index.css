@@ -263,7 +263,7 @@ div.education-container {
     }
 
     & h1 {
-        margin-bottom: 0.625rem;
+        margin: 0.625rem;
     }
     
     & ion-card {
@@ -296,7 +296,7 @@ div.contact-me-container {
     text-align: center;
 
     & h1 {
-        margin-bottom: 0.625rem;
+        margin: 0.625rem;
     }
 
     & ion-card {

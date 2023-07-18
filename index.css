@@ -221,10 +221,11 @@ div.skills-container {
 
 
 
-/* div.projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+div.projects-container {
+    max-width: 64rem;
+    margin: 0rem auto;
+    padding: 1.5rem 0rem;
+    text-align: center;
 
     & h1 {
         padding-left: 1.25rem;
@@ -234,8 +235,10 @@ div.skills-container {
 
     & .projects-cards {
         display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        text-align: start; 
 
         & ion-card {
             margin: 1rem 1rem;
@@ -247,8 +250,40 @@ div.skills-container {
             object-fit: cover;
             aspect-ratio: 1/0.6;
         }
+        
+        & ion-card-header {
+            padding: 1rem 1rem 0rem 1rem;
+        }
+
+        & ion-card-title {
+            font-size: 1.3rem;
+        }
+
+    
+        & ion-card-content {
+            font-size: 0.85rem;
+        }
+
+        & ion-chip {
+            font-size: 0.6rem;
+            margin: 0.5rem 0rem;
+            padding: 0.3rem 0.6rem;
+            height: auto;
+            --background: rgba(254, 247, 182, 0.498);
+        }
+
+        & a {
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #466f98;
+        }
+    
+        & a:hover {
+            color: #7ab2e3;
+        }
     }
-} */
+}
 
 div.education-container {
     max-width: 64rem;
@@ -267,17 +302,18 @@ div.education-container {
     }
     
     & ion-card {
-        width: 24rem;
+        max-width: 28rem;
         margin: 1rem;
         text-align: start;  
     }
 
     & ion-card-title {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     & ion-card-subtitle {
-        font-size: 0.7rem;
+        margin-left: 0.075rem;
+        font-size: 0.8rem;
     }
 
     & ul {
@@ -317,7 +353,11 @@ div.contact-me-container {
     & a {
         text-decoration: none;
         font-size: 0.85rem;
-        color: #6084a5
+        color: #466f98
+    }
+
+    & a:hover {
+        color: #7ab2e3;
     }
 }
 

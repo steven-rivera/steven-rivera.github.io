@@ -3,7 +3,7 @@
 @media only screen and (max-width: 400px) {
     body {
         & h1 {
-            font-size: 1.5rem;   
+            font-size: 1.5rem;
         }
 
         & h5 {
@@ -111,6 +111,38 @@
         }
     }
 
+    div.projects-container {
+        padding: 0rem;
+
+        & .projects-cards {
+
+            & ion-card {
+                margin: 0.625rem;
+                width: 10.8rem;
+            }
+
+            & ion-card-header {
+                font-size: 0.8rem;
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
+            }
+
+            & ion-chip {
+                font-size: 0.6rem;
+            }
+
+            & ion-card-content {
+                font-size: 0.65rem;
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
+            }
+
+            & a {
+                font-size: 0.65rem;
+            }
+        }
+    }
+
     div.education-container {
         padding: 0.5rem 0rem;
 
@@ -121,11 +153,11 @@
         & ion-card-title {
             font-size: 0.9rem;
         }
-    
+
         & ion-card-subtitle {
             font-size: 0.6rem;
         }
-    
+
         & ul {
             margin: 0rem 0rem 0.2rem 0rem;
             font-size: 0.65rem;
@@ -152,7 +184,7 @@
         & h2 {
             font-size: 0.7rem;
         }
-    
+
         & a {
             font-size: 0.525rem;
         }

@@ -10,9 +10,9 @@
   <title>Steven Rivera</title>
 
   <!-- Favicon: https://favicon.io/favicon-converter/ -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
 
   <!-- Ionic Library Dependencies -->
   <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
@@ -85,10 +85,9 @@
         <ion-card mode="ios">
           <ion-card-content>
             <p>
-              I am a recent Computer Science graduate from the University of California, Irvine, specialized in
+              I am a recent Computer Science graduate from the University of California, Irvine, specializing in
               Information. My passion lies in back-end development and database management systems. I possess a strong
-              enthusiasm for
-              learning and continuously expanding my skill.
+              enthusiasm for learning and continuously expanding my skills.
               <br><br>
               I am currently looking for a full time entry level role as a Software Engineer.
             </p>
@@ -256,26 +255,133 @@
 
     <a id="projects"></a>
     <div class="projects-container">
-        <div class="projects-header">
-          <h1>Projects</h1>
-        </div>
-        <div class="projects-cards">
-          <ion-card mode="ios">
-            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-            <ion-card-header>
-              <ion-card-subtitle>
-                <ion-chip>Python</ion-chip>
-                <ion-chip>React</ion-chip>
-                <ion-chip>Flask</ion-chip>
-              </ion-card-subtitle>
-              <ion-card-title>MacroFi</ion-card-title>
-            </ion-card-header>
-            <ion-card-content>
-              Here's a small text description for the card content. Nothing more, nothing less.
-              <br><br>
-              <a href="https://github.com/steven-rivera" target="_blank">Code</a>
-            </ion-card-content>
-        </div>
+      <div class="projects-header">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects-cards">
+        <ion-card mode="ios">
+          <img src="images/macrofi-app.png" />
+          <ion-card-header>
+            <ion-card-subtitle>
+              <ion-chip class="react-chip">React</ion-chip>
+              <ion-chip class="typescript-chip">TypeScript</ion-chip>
+              <ion-chip class="python-chip">Python</ion-chip>
+              <ion-chip class="flask-chip">Flask</ion-chip>
+            </ion-card-subtitle>
+            <ion-card-title>MacroFi App</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Led a group of four to develop a mobile health app that allows users to log meals, search relevant
+            restaurants, and receive personalized meal recommendations based on dietary goals. The frontend was written
+            using Ionic, React, and TypeScript. The backend was written in Python with the use of Flask to set up
+            endpoints
+            that would call the USDA and Yelp API.
+            <br><br>
+            <a href="https://github.com/MacroFi/MacroFiApp" target="_blank">Frontend</a>
+            |
+            <a href="https://github.com/MacroFi/macrofi-backend" target="_blank">Backend</a>
+            |
+            <a href="https://drive.google.com/file/d/1UBYHqE9mRmFMKbx-hTl7vFWBS0nWU3Y0/view?usp=sharing" target="_blank">Walkthrough</a>
+
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card mode="ios">
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+          <ion-card-header>
+            <ion-card-subtitle>
+              <ion-chip class="python-chip">Python</ion-chip>
+            </ion-card-subtitle>
+            <ion-card-title>Search Engine</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            I built a complete search engine from scratch that utilizes porter stemming and TF-IDF scoring
+            to retrieve high relevance web pages within 300ms from a corpus of over 55,000 web pages. Before
+            the search engine can be run the corpus must be indexed which allows for extremely fast search results.
+            After indexing is complete the entire corpus can be searched returning the top 5 most relavent results.
+            <br><br>
+            <a href="https://github.com/steven-rivera/search-engine" target="_blank">Code</a>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card mode="ios">
+          <img  src="images/process-manager.png" />
+          <ion-card-header>
+            <ion-card-subtitle>
+              <ion-chip class="python-chip">Python</ion-chip>
+            </ion-card-subtitle>
+            <ion-card-title>Process Manager</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            I built a process and resource manager that simulates the creation and destruction of processes as well as
+            the acquisition and release of resources. Processes are represented by a process control block which store
+            a process's state, priority, and the resources it holds. Resources are represented by a resource control
+            block.
+            <br><br>
+            <a href="https://github.com/steven-rivera/process-manager" target="_blank">Code</a>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card mode="ios">
+          <img alt="Silhouette of mountains" src="images/text-editor.png" />
+          <ion-card-header>
+            <ion-card-subtitle>
+              <ion-chip class="c-chip">C++</ion-chip>
+            </ion-card-subtitle>
+            <ion-card-title>Text Editor</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            I developed a text editor in C++ that suports over a dozen commands such as Backspace, Delete Line, and
+            Undo.
+            Has all the features you would expect from a basic text editor including window resizing.
+            <br><br>
+            <a href="https://github.com/steven-rivera/text-editor" target="_blank">Code</a>
+            |
+            <a href="https://drive.google.com/file/d/1s82tLz_QzoBt_gSP_BMQwOPsrEyfj3ij/view?usp=sharing" target="_blank">Walkthrough</a>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card mode="ios">
+          <img src="images/columns-game.png" />
+          <ion-card-header>
+            <ion-card-subtitle>
+              <ion-chip class="python-chip">Python</ion-chip>
+            </ion-card-subtitle>
+            <ion-card-title>Columns</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            I recreated from scratch the match-three video game Columns, which was released by Sega in 1990.
+            This was my first project that involved creating a GUI. The GUI and made using the Pygame module.
+            <br><br>
+            <a href="https://github.com/steven-rivera/columns-game" target="_blank">Code</a>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card mode="ios">
+          <img src="images/play-time.png" />
+          <ion-card-header>
+            <ion-card-subtitle>
+              <ion-chip class="figma-chip">Figma</ion-chip>
+            </ion-card-subtitle>
+            <ion-card-title>PlayTime</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            I led a group of five to design a mobile application for children that would enable kids to connect,
+            collaborate, and build meaningful relationships. The app allows children to schedule 'playdates' with
+            others to engage in shared activities such as playing sports. The application UI of the application was
+            designed using Figma.
+            <br><br>
+            <a href="https://www.figma.com/proto/77ylDh6fP5jAuYt9ONgsqf/PlayDate-UI?type=design&t=ld8oqipMjnctrugb-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=40%3A748&node-id=40-748"
+              target="_blank">
+              UI
+            </a>
+            |
+            <a href="https://drive.google.com/file/d/17GBF2hz2gjhWPIfOwDP3cpGMCnz1t_Vx/view?usp=sharing" target="_blank">Design Work</a>
+
+            
+          </ion-card-content>
+        </ion-card>
+      </div>
     </div>
 
 

@@ -11,7 +11,7 @@ body {
     }
 
     & h5 {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         font-weight: 400;
     }
 
@@ -125,6 +125,10 @@ div.bio-container {
         & image:hover {
             filter: invert(62%) sepia(98%) saturate(4047%) hue-rotate(161deg) brightness(94%) contrast(101%);
         }
+    }
+
+    & p {
+        margin: 0.5rem 0rem;
     }
 
     & .button {
@@ -268,8 +272,33 @@ div.projects-container {
             margin: 0.5rem 0rem;
             padding: 0.3rem 0.6rem;
             height: auto;
-            --background: rgba(254, 247, 182, 0.498);
         }
+
+        & .python-chip {
+            --background: rgba(253, 233, 52, 0.4);
+        }
+
+        & .typescript-chip {
+            --background: rgba(49, 121, 198, 0.4);
+        }
+
+        & .react-chip {
+            --background: rgba(97, 218, 251, 0.4);
+        }
+
+        & .c-chip {
+            --background: rgba(0, 67, 130, 0.4);
+            
+        }
+
+        & .figma-chip {
+            --background: rgba(162, 89, 255, 0.4);
+            
+        }
+
+
+
+        
 
         & a {
             text-decoration: none;
@@ -283,6 +312,9 @@ div.projects-container {
         }
     }
 }
+
+
+
 
 div.education-container {
     max-width: 64rem;

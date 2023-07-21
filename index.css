@@ -178,7 +178,7 @@ div.about-me-section {
 div.skills-container {
     max-width: 64rem;
     margin: 0rem auto;
-    padding: 0.5rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
 
     & h1 {
@@ -229,7 +229,7 @@ div.skills-container {
 div.projects-container {
     max-width: 64rem;
     margin: 0rem auto;
-    padding: 0.5rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
 
     & h1 {
@@ -339,7 +339,7 @@ div.projects-container {
 div.education-container {
     max-width: 64rem;
     margin: 0rem auto;
-    padding: 0.5rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
 
     & .education-cards {
@@ -380,7 +380,7 @@ div.education-container {
 div.contact-me-container {
     max-width: 64rem;
     margin: 0rem auto;
-    padding: 0.5rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
 
     & h1 {

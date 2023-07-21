@@ -337,7 +337,7 @@ div.education-container {
 
     & .education-cards {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -346,7 +346,7 @@ div.education-container {
     }
     
     & ion-card {
-        max-width: 28rem;
+        width: 30.75rem;
         margin: 0.625rem;
         text-align: start;  
     }

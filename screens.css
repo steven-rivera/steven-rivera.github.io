@@ -4,6 +4,7 @@
     body {
         & h1 {
             font-size: 1.5rem;
+            margin-top: 2rem;
         }
 
         & h5 {
@@ -74,9 +75,7 @@
         padding: 0rem;
 
         & .skills-cards {
-            flex-wrap: wrap;
             justify-content: center;
-            overflow-x: scroll;
             padding-bottom: 0.5rem;
 
             & ion-card {
@@ -115,20 +114,28 @@
         padding: 0rem;
 
         & .projects-cards {
+            justify-content: center;
 
             & ion-card {
-                margin: 0.625rem;
-                width: 10.8rem;
+                margin: 0.5rem;
+                width: 11rem;
             }
 
             & ion-card-header {
-                font-size: 0.8rem;
+                padding-top: 0.5rem;
                 padding-left: 0.75rem;
                 padding-right: 0.75rem;
             }
 
+            & ion-card-title {
+                font-size: 1rem;
+            }
+
             & ion-chip {
-                font-size: 0.6rem;
+                margin-top: 0.25rem;
+                font-size: 0.5rem;
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
             }
 
             & ion-card-content {

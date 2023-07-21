@@ -306,6 +306,11 @@ div.projects-container {
             
         }
 
+        & .flask-chip {
+            --background: rgb(215, 215, 215);
+            
+        }
+
         & .figma-chip {
             --background: rgba(162, 89, 255, 0.4);
             

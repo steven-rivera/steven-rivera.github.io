@@ -163,7 +163,7 @@ div.about-me-section {
 
     & p {
         font-weight: 400;
-        font-size: 0.875rem;
+        font-size: 0.8rem;
         text-align: left;
     }
 
@@ -207,7 +207,7 @@ div.skills-container {
         & ion-item {
             --padding-start: 0rem;
             --min-height: 2rem;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
         }
 
         & ion-thumbnail {
@@ -245,14 +245,24 @@ div.projects-container {
 
         & ion-card {
             margin: 1rem 1rem;
-            width: 13.5rem;
+            width: 18.5rem;
         }
 
         & img {
             width: 100%;
             object-fit: cover;
-            aspect-ratio: 1/0.6;
+            aspect-ratio: 1/0.60;
+            
         }
+
+        & .macrofi-img {
+            object-position: 0% 75%;
+        }
+
+        & .columns-img {
+            object-position: 0% 51%;
+        }
+
         
         & ion-card-header {
             padding: 1rem 1rem 0rem 1rem;
@@ -262,20 +272,24 @@ div.projects-container {
             font-size: 1.3rem;
         }
 
+        & ion-card-subtitle {
+            margin-bottom: 0.75rem;
+        }
+
     
         & ion-card-content {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
         }
 
         & ion-chip {
             font-size: 0.6rem;
-            margin: 0.5rem 0rem;
+            margin: 0.5rem 0rem 0rem 0rem;
             padding: 0.3rem 0.6rem;
             height: auto;
         }
 
         & .python-chip {
-            --background: rgba(253, 233, 52, 0.4);
+            --background: rgba(252, 227, 0, 0.4);
         }
 
         & .typescript-chip {
@@ -283,11 +297,11 @@ div.projects-container {
         }
 
         & .react-chip {
-            --background: rgba(97, 218, 251, 0.4);
+            --background: rgba(77, 215, 253, 0.4);
         }
 
         & .c-chip {
-            --background: rgba(0, 67, 130, 0.4);
+            --background: rgba(0, 89, 172, 0.5);
             
         }
 
@@ -349,7 +363,7 @@ div.education-container {
 
     & ul {
         margin: 0rem 0rem 0.2rem 0rem;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         padding-left: 2rem;
     }
 }
@@ -374,6 +388,7 @@ div.contact-me-container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+
     }
 
     & h2 {
@@ -383,7 +398,7 @@ div.contact-me-container {
 
     & a {
         text-decoration: none;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         color: #466f98
     }
 

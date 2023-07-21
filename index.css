@@ -41,7 +41,7 @@ ul.nav-bar {
     background-color: #7aa0c3;
 
     & li {
-        padding: 0.625rem 1.5625rem;
+        padding: 0.5rem 1.5625rem;
         font-size: 1rem
     }
 
@@ -168,7 +168,7 @@ div.about-me-section {
     }
 
     & ion-card {
-        margin: 1.25rem 1rem;
+        margin: 0.625rem;
     }
 }
 
@@ -232,8 +232,7 @@ div.projects-container {
     text-align: center;
 
     & h1 {
-        margin-bottom: 0.3rem;
-        margin-top: 3.75rem;
+        margin-bottom: 0.625rem;
     }
 
     & .projects-cards {
@@ -244,7 +243,7 @@ div.projects-container {
         text-align: start; 
 
         & ion-card {
-            margin: 1rem 1rem;
+            margin: 0.625rem;
             width: 18.5rem;
         }
 
@@ -343,12 +342,12 @@ div.education-container {
     }
 
     & h1 {
-        margin: 0.625rem;
+        margin-bottom: 0.625rem;
     }
     
     & ion-card {
         max-width: 28rem;
-        margin: 1rem;
+        margin: 0.625rem;
         text-align: start;  
     }
 
@@ -377,11 +376,11 @@ div.contact-me-container {
     text-align: center;
 
     & h1 {
-        margin: 0.625rem;
+        margin-bottom: 0.625rem;
     }
 
     & ion-card {
-        margin: 1.25rem;
+        margin: 0.625rem;
     }
 
     & ion-card-content {
@@ -412,7 +411,7 @@ div.contact-me-container {
 
 /* DEBUG  */
 
-h1 {
+/* h1 {
     outline: dashed 1px brown;
 }
 
@@ -458,4 +457,4 @@ div.contact-me-container {
     & ion-card {
         outline: dashed 1px purple;
     }
-}
+} */

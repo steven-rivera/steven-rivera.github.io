@@ -241,7 +241,7 @@ div.projects-container {
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
-        text-align: start; 
+        text-align: start;
 
         & ion-card {
             margin: 0.625rem;
@@ -253,7 +253,7 @@ div.projects-container {
             width: 100%;
             object-fit: cover;
             aspect-ratio: 1/0.60;
-            
+
         }
 
         & .macrofi-img {
@@ -264,7 +264,7 @@ div.projects-container {
             object-position: 0% 51%;
         }
 
-        
+
         & ion-card-header {
             padding: 1rem 1rem 0rem 1rem;
         }
@@ -277,7 +277,7 @@ div.projects-container {
             margin-bottom: 0.75rem;
         }
 
-    
+
         & ion-card-content {
             font-size: 0.8rem;
         }
@@ -303,22 +303,22 @@ div.projects-container {
 
         & .c-chip {
             --background: rgba(0, 89, 172, 0.5);
-            
+
         }
 
         & .flask-chip {
             --background: rgb(215, 215, 215);
-            
+
         }
 
         & .figma-chip {
             --background: rgba(162, 89, 255, 0.4);
-            
+
         }
 
 
 
-        
+
 
         & a {
             text-decoration: none;
@@ -326,7 +326,7 @@ div.projects-container {
             font-weight: 600;
             color: #466f98;
         }
-    
+
         & a:hover {
             color: #7ab2e3;
         }
@@ -351,12 +351,12 @@ div.education-container {
     & h1 {
         margin-bottom: 0.625rem;
     }
-    
+
     & ion-card {
         width: 30.75rem;
         margin: 0.625rem;
         margin-bottom: 2rem;
-        text-align: start;  
+        text-align: start;
     }
 
     & ion-card-title {
@@ -415,6 +415,32 @@ div.contact-me-container {
     }
 }
 
+footer {
+    max-width: 63rem;
+    margin: 1rem auto;
+    text-align: center;
+
+    & hr {
+        height: 0.5px;
+        background-color: rgb(152, 152, 152);
+        border: none;
+    }
+
+
+    & svg {
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
+
+    & image {
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
+
+    & image:hover {
+        filter: invert(62%) sepia(98%) saturate(4047%) hue-rotate(161deg) brightness(94%) contrast(101%);
+    }
+}
 
 
 

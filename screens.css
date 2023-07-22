@@ -196,4 +196,16 @@
             font-size: 0.525rem;
         }
     }
+
+    footer {
+        & svg {
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+
+        & image {
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+    }
 }

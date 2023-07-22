@@ -4,7 +4,8 @@
     body {
         & h1 {
             font-size: 1.5rem;
-            margin-top: 3rem;
+            margin: 0rem 0rem 0.2rem 0rem;
+            padding-top: 2.5rem;
         }
 
         & h5 {

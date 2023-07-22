@@ -5,6 +5,8 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
 
     & h1 {
+        margin: 0rem 0rem 0.625rem 0rem;
+        padding-top: 2rem;
         font-size: 1.75rem;
         font-weight: 600;
         color: black;
@@ -157,10 +159,6 @@ div.about-me-section {
     padding-top: 1.75rem;
     text-align: center;
 
-    & h1 {
-        margin-bottom: 0.625rem;
-    }
-
     & p {
         font-weight: 400;
         font-size: 0.8rem;
@@ -180,10 +178,6 @@ div.skills-container {
     margin: 0rem auto;
     padding: 1rem 0rem;
     text-align: center;
-
-    & h1 {
-        margin-bottom: 0.625rem;
-    }
 
     & .skills-cards {
         display: flex;
@@ -231,10 +225,6 @@ div.projects-container {
     margin: 0rem auto;
     padding: 1rem 0rem;
     text-align: center;
-
-    & h1 {
-        margin-bottom: 0.625rem;
-    }
 
     & .projects-cards {
         display: flex;
@@ -348,10 +338,6 @@ div.education-container {
         flex-wrap: wrap;
     }
 
-    & h1 {
-        margin-bottom: 0.625rem;
-    }
-
     & ion-card {
         width: 30.75rem;
         margin: 0.625rem;
@@ -382,10 +368,6 @@ div.contact-me-container {
     margin: 0rem auto;
     padding: 1rem 0rem;
     text-align: center;
-
-    & h1 {
-        margin-bottom: 0.625rem;
-    }
 
     & ion-card {
         margin: 0.625rem;

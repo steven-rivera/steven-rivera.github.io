@@ -251,6 +251,10 @@ div.projects-container {
             object-position: 0% 75%;
         }
 
+        & .stock-strategies-img {
+            object-position: 0% 0%;
+        }
+
         & .columns-img {
             object-position: 0% 51%;
         }

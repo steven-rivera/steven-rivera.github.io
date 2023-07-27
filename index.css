@@ -316,6 +316,10 @@ div.projects-container {
     --background: rgb(215, 215, 215);
 }
 
+.html-chip {
+    --background: rgb(248, 207, 167);
+}
+
 .figma-chip {
     --background: rgba(162, 89, 255, 0.4);
 }

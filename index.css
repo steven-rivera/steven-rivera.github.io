@@ -384,6 +384,10 @@ div.projects-container {
 
 }
 
+.contact-me-container div {
+    width: 15rem;
+}
+
 .contact-me-container h2 {
     font-weight: 700;
     font-size: 0.875rem;

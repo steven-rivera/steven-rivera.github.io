@@ -24,7 +24,7 @@
 /* Safari does not have Consolas font */
 @font-face {
     font-family: 'SourceCodePro';
-    src: url('/fonts/SourceCodePro-Regular.ttf') format('truetype');
+    src: url('/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
 }
 
 html {

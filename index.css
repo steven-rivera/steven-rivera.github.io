@@ -303,6 +303,7 @@ svg {
 .education-section li,
 .skills-section li {
     display: flex;
+    align-items: center;
     color: var(--text-color);
     gap: 4px;
 }

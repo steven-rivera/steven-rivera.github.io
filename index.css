@@ -282,7 +282,7 @@ svg {
 
 .education-section h2,
 .skills-section h2 {
-    border-left: 4px solid var(--section-color);
+    border-left: 6px solid var(--section-color);
     padding-left: 6px;
     margin-bottom: 0px;
 }
@@ -342,6 +342,7 @@ footer {
     background-color: var(--header-color);
     /* border-top: 1px dashed var(--border-color); */
     padding: 10px;
+    text-align: center;
 }
 
 

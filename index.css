@@ -21,8 +21,14 @@
     --blink-duration: 1.4s;
 }
 
+/* Safari does not have Consolas font */
+@font-face {
+    font-family: 'myConsolas';
+    src: url('/fonts/consolas.ttf') format('truetype');
+}
+
 html {
-    font-family: Consolas, 'Courier New', monospace;
+    font-family: 'myConsolas', Consolas, monospace;
     background-color: var(--body-color);
     color: var(--text-color);
 }

@@ -76,6 +76,16 @@ svg {
     vertical-align: middle;
 }
 
+code {
+    background-color: #50535b;
+    border-radius: 2px;
+    color: var(--h1-color);
+    padding: 0px 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
 /* HEADER  SECTION */
 
 .about-me {
